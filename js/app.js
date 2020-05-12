@@ -85,13 +85,31 @@ while(!checkAnswer && j<7){
 }
 alert('the right answers are :'+answers);
 
+//--------
+/*
+var answers=['apple','orange','banana','strawberry','berry'];
+for(var y=1;y<7;y++){
+    var correctAnswer=prompt('Q7: what kind of fruit i like?');
+    for(var x=0; x <= answers.length ; x++){
+        if (correctAnswer==answers[x]) {
+            alert('correct');
+        }else{
+            alert('not exist')
+        }
+        }
 
+}
 
+ 
+
+switch(correctAnswer){
+    case 'apple': alert('correct');break;
+    case 'apple': alert('correct');break;
+    case 'apple': alert('correct');break;
+    case 'apple': alert('correct');break;
+    default: alert('not correct');
+
+}
     
-     
-   
-
-
-
-
+*/
 
