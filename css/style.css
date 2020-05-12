@@ -1,0 +1,10 @@
+p{
+    border: black solid 3px;
+}
+
+ul li {
+    background-color: cornflowerblue;
+    width:200px;
+    display: inline-block;
+    border: crimson solid;
+}
