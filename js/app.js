@@ -55,7 +55,7 @@ while (num !== 5 && i<5){
             console.log(`i${i}`);
             console.log('num'+num);
             if (num > 5){
-                alert('high');// it is better to make ti mor specific {too, slitly}
+                alert('high');// it is better to make it more specific {too, slitly}
             } else if (num < 5){
                 alert('low'); 
             } else if (num=5){
