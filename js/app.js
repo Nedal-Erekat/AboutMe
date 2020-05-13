@@ -1,5 +1,5 @@
 'use strict';
-
+/*
 //Q1 
 var first=prompt('Q1: Have I traveled abroad?');
 switch(first.toLowerCase()){
@@ -59,57 +59,55 @@ while (num !== 5 && i<5){
             } else if (num < 5){
                 alert('low'); 
             } else if (num=5){
-                alert('That is correct');
+                alert('That is correct');break;
+
             } else {
                 alert('You have to type numbrs');
             }
+            
             i++;
         }
-    
+   */ 
         
 //Q7
-var checkAnswer;
-var j=1;
-while(!checkAnswer && j<7){
-    console.log(`j=${j}`);
-    console.log(`Answer=${correctAnswer}`);
-    var correctAnswer=prompt('Q7: what kind of fruit i like?')     
-    var answers=['apple','orange','banana','strawberry','berry'];
-        checkAnswer = answers.includes(correctAnswer);
-    if (checkAnswer){
-        alert('that is correct');
-    }else{
-        alert('wrong');
-    }
-    j++;
-}
-alert('the right answers are :'+answers);
+//var checkAnswer;
+//var j=1;
+//while(!checkAnswer && j<7){
+//    console.log(`j=${j}`);
+//    console.log(`Answer=${correctAnswer}`);
+//    var correctAnswer=prompt('Q7: what kind of fruit i like?')     
+//    var answers=['apple','orange','banana','strawberry','berry'];
+//        checkAnswer = answers.includes(correctAnswer);
+//    if (checkAnswer){
+//        alert('that is correct');
+//    }else{
+//        alert('wrong');
+//    }
+//    j++;
+//}
+//alert('the right answers are :'+answers);
 
 //--------
-/*
+
+var guess=false;
 var answers=['apple','orange','banana','strawberry','berry'];
 for(var y=1;y<7;y++){
-    var correctAnswer=prompt('Q7: what kind of fruit i like?');
     for(var x=0; x <= answers.length ; x++){
+        var correctAnswer=prompt('Q7: what kind of fruit i like?');
         if (correctAnswer==answers[x]) {
             alert('correct');
+            guess=true;
+            break;
         }else{
             alert('not exist')
         }
         }
+    if (guess)
+    {break;}
 
 }
 
  
 
-switch(correctAnswer){
-    case 'apple': alert('correct');break;
-    case 'apple': alert('correct');break;
-    case 'apple': alert('correct');break;
-    case 'apple': alert('correct');break;
-    default: alert('not correct');
 
-}
-    
-*/
 
