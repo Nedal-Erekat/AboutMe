@@ -1,10 +1,136 @@
-p{
-    border: black solid 3px;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&display=swap');
+
+#header1{
+    background-color: rgb(0, 0, 95);
+    width: 100%;
+    display: inline-flex;
+    top: 20px;
+
+}
+#header2{
+    width: 100%;
+    background-color: darkorange;
+    display: inline-flex;
+    top: 0px;
+    position: sticky;
+
+}
+#icon{
+    height:100px;
+    width: 100px;
+    padding: 10px 10px 10px 40px;
+}
+#mainhead{
+    padding: 45px;
+    color: #f6f6f6;
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+
+}
+#name{
+    padding: 10px 0 0 40px;
+    font-family: 'Lobster', cursive;
+    color: #f6f6f6;
+    font-size: x-large;
+    text-shadow: 0 0 3px black;
+    
+    
+
+}
+nav {
+    padding: 5px 0 0 200px;
+    
+}
+nav ul a{
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #463737;
+    font-family: monospace;
 }
 
-ul li {
-    background-color: cornflowerblue;
-    width:200px;
-    display: inline-block;
-    border: crimson solid;
+nav ul li{
+    float: left;
+    margin: 10px;
+}
+body{
+    background-color: rgb(214, 210, 210);
+}
+#sec1,#sec2{
+    /* border: black solid 2px; */
+    background-color: honeydew;
+    margin: 1% 15% 1% 15%;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    box-shadow: 0 0 5px black;
+    border-radius: 5px;
+    
+}
+main{
+    /* border:  black solid 2px; */
+    margin: 0 10px 0 10px;
+}
+
+#sec1 h3,#sec2 h3{
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 10px;
+
+}
+hr{
+    color: rgba(252, 17, 17, 0.966);
+}
+#sec1 ul li{
+    font-size: large;
+    padding: 10px;
+    
+}
+#sec1 ul li{
+    list-style-type: circle;
+    /* padding:10px 0 10px 40px; */
+}
+#sec1 ul{
+    padding: 20px;
+}
+#sec2 ol li{
+    font-size: large;
+    padding: 10px 0 10px 40px;
+    list-style-type: decimal;
+
+}
+#sec2 ol{
+    padding: 40px;
+}
+#m{
+    width: 80%;
+    display: block;
+    /* padding: 10px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    box-shadow: 0 0 5px gray;
+}
+footer{
+    background:rgb(0, 0, 95) ;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: small;
+    color: honeydew;
+    display: inline-flex;
+    width: 100%;
+}
+footer #st{
+    margin-right: auto;
+    /* margin-left: auto; */
+    width: 25%;
+    padding: 20px;
+}
+footer #c{
+    /* margin-right: auto; */
+    margin-left: auto;
+    width: 25%;
+    padding: 20px;
 }
