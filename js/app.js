@@ -18,7 +18,6 @@ function Q1() {
 
 Q1();
 
-
 //Q2
 function Q2() {
     var second = prompt('Q2: do I like the soccer ?');
@@ -135,7 +134,6 @@ Q6();
 // alert('the right answers are :' + answers);
 
 // //--------
-
 
 function Q7() {
     var guess = false;
