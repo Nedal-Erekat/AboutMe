@@ -115,26 +115,26 @@ Q6();
 // }
 
 //--------22
-function Q7() {
+// function Q7() {
 
-    var guess = false;
-    var answers = ['apple', 'orange', 'banana', 'strawberry', 'berry'];
-    for (var y = 1; y < 7; y++) {
-        for (var x = 0; x <= answers.length; x++) {
-            var correctAnswer = prompt('Q7: what kind of fruit i like?');
-            if (correctAnswer == answers[x]) {
-                alert('correct');
-                guess = true;
-                break;
-            } else {
-                alert('not exist')
-            }
-        }
-        if (guess) { break; }
+//     var guess = false;
+//     var answers = ['apple', 'orange', 'banana', 'strawberry', 'berry'];
+//     for (var y = 1; y < 7; y++) {
+//         for (var x = 0; x <= answers.length; x++) {
+//             var correctAnswer = prompt('Q7: what kind of fruit i like?');
+//             if (correctAnswer == answers[x]) {
+//                 alert('correct');
+//                 guess = true;
+//                 break;
+//             } else {
+//                 alert('not exist')
+//             }
+//         }
+//         if (guess) { break; }
 
-    }
-}
-Q7();
+//     }
+// }
+// Q7();
 
 
 
