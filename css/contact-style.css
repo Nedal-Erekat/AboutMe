@@ -1,6 +1,10 @@
-div{
+/* div{
     background-color: gray;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-}
+} */
+body { 
+    color: white;
+    background-color: black; 
+    }
